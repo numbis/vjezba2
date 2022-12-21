@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablica</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+            border-collapse: collapse;
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1> Osnovna tablica s okvirima</h1>
+
+    <table style="width: 100%;">
+
+        <thead>
+            <th>Ime</th>
+            <th style="width: 70%;">Prezime</th>
+            <th>Godine</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Marko</td>
+                <td>Markovic</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>Ivana</td>
+                <td>Ivić-markovic</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Ivica</td>
+                <td>Ivić</td>
+                <td>40</td>
+            </tr>
+            
+        </tbody>
+    </table>
+
+    <table style="width: 100%; margin-top: 25px;">
+
+        <tr>
+            <th>Ime</th>
+            <td style="width: 40%;">Marko</td>
+            <td>Ivana</td>
+            <tr>
+                <th>Prezime</th>
+                <td>Markovic</td>
+                <td>Ivić</td>
+            </tr>
+            <tr>
+                <th>Godine</th>
+                <td>20</td>
+                <td>40</td>
+            </tr>             
+    </table>
+
+    <table style=" width:100%; margin-top: 25px;">
+        <tr>
+            <td rowspan="3" width="160">Prvi stupac</td>
+            <td width="160">Prvi redak</td>
+        </tr>
+        <tr>
+            <td>Drugi redak</td>
+        </tr>
+        <tr>
+            <td>Treći redak</td>
+        </tr>
+    </table>
+
+    <table style="width: 100%; margin-top: 25px;">
+        <tr>
+            <td colspan="3" width="320">Prvi redak</td>
+        </tr>
+        <tr>
+            <td>Prvi stupac</td>
+            <td>Drugi stupac</td>
+            <td>Treći stupac</td>
+        </tr>
+    </table>
+
+    <h1>Složene tablice</h1>
+
+    <table id="prva" style="width: 100%; margin-top: 25px;" >
+
+        <tbody>
+        <tr>
+            <td>stupac 1</td>
+            <td>stupac 2</td>
+            <td>stupac 3</td>
+            <td>stupac 4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td colspan="3">6</td>
+        </tr>
+        <tr>
+            <td colspan="2">7</td>
+            <td>8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td colspan="3">10</td>
+            <td>11</td>
+        </tr>
+    </tbody>
+    </table>
+
+    <table id="druga" style="width: 100%; margin-top: 25px;"
+        <tbody>
+            <tr>
+                <td rowspan="3">stupac 1</td>
+                <td rowspan="2">stupac 2</td>
+                <td>stupac 3</td>
+                <td>stupac 4</td>
+            </tr>
+            <tr>
+                <td rowspan="2">5</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>8</td>
+            </tr>
+
+        </tbody>
+    </table>
+    
+</body>
+</html>

@@ -10,7 +10,8 @@
           <li><a href="#home">Naslovna</a></li>
           <li><a href="#onama">O nama</a></li>
           <li><a href="#galerija">Galerija</a></li>
-         <li><a href="#kontakt">Kontakt</a></li>   
+         <li><a href="#kontakt">Kontakt</a></li> 
+         <li><a href="tablice.html">Tablice</a></li>  
        </ul>
      </header>
      <hr>
@@ -30,6 +31,20 @@
     <br><br><br><br><br><br><br><br>
           <img src="slike/more.jpg" width="500px" height="auto" id="galerija">
     <br><br><br><br><br><br><br><br> 
+    <canvas id="myCanvas" width="200" height="100" style="border: 1px solid #000000;">
+    </canvas>
+    <script>
+      var c= document.getElementById("myCanvas");
+      var ctx= c.getContext("2d");
+      ctx.moveTo(0,0);
+      ctx.lineTo(200,100);
+      ctx.stroke();
+      ctx.font = "30px Arial";
+      ctx.fillText("Hello World", 20, 60)
+    </script>
+     <audio src="audio/horse.ogv" type = "video/mp4" controls></audio>
+     <video src="video/zec.mp4" type = "video/mp4" controls ></video>
+     <iframe width="420" height="315" src="https://www.youtube.com/embed/watch?v=i-0wP_951dM"></iframe>
 </section> 
            <footer id="kontakt">
               <h1> <i>Izradi3D</i>  </h1>
