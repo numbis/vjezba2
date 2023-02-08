@@ -14,9 +14,12 @@
     scale: 1.1;
     cursor: pointer;
 }
-h3, p {
+header h3, p {
     font-size: 1.5em;
     margin: 15px 0;
+}
+header h3 {
+    text-transform: uppercase;
 }
 header {
     width: 400px;
@@ -44,4 +47,7 @@ header a {
 header a:hover{
     background-color: rgb(206, 113, 79);
     border-radius: 20%;
+}
+#home, #about, #education {
+    margin-left: 400px;
 }
