@@ -2,12 +2,18 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    transition:all .1s linear;
 }
-
+body {
+    overflow-x: hidden;
+    background-color: wheat;
+}
 .user img{
     width: 300px;
     border-radius: 50%;
-    border:solid coral 8px
+    border:solid tomato 8px
 
 }
 .user img:hover {
@@ -27,8 +33,10 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    background-color:  wheat;
+    background-color:  rgb(192, 175, 142);;
     text-align: center;
+    border-radius: 10px;
+    
     
 }
 
@@ -39,15 +47,34 @@ header a {
     font-size: 1em;
     text-transform: uppercase;
     font-weight: bold;
-    color: coral;
-    padding: 12px;
-    width: 100px;
+    color: tomato;
+    opacity: 80%;
+    padding: 10px;
+    width: 125px;
     
 }
 header a:hover{
     background-color: rgb(206, 113, 79);
     border-radius: 20%;
 }
-#home, #about, #education {
+#home, #about, #education, #portfolio, #contact {
     margin-left: 400px;
+}
+
+#home h3 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 50px;
+    color: tomato;
+    opacity: 70%;
+}
+#home h1 {
+    text-align: center;
+    color: tomato;
+    margin:20px;
+    font-size: 3em;
+}
+#home span {
+    color: black;
+    font-size: 1.5em;
 }
