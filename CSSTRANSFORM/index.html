@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+   /* div {
+        width: 150px;
+        height: 150px;
+        line-height: 150px;
+        border-radius: 20px;
+        position: absolute;
+        color: white;
+        text-align: center;
+        top: 50px;
+        left: 175px;
+    }
+    #div-1 {
+        background-color: black;
+    }
+    #div-2 {
+        transform: scale(3, 1.5);
+        background-color: tomato;
+        opacity: 0.8;
+    }
+  div {
+      line-height: 150px;
+  }
+  
+  #container {
+      top: 25px;
+      left: 25px;
+      position: absolute;
+  }
+  .group {
+      display: inline-block;
+      width: 200px;
+      height: 150px;
+  }
+
+  .original, .transformed {
+      width: 150px;
+      height: 150px;
+      border-radius: 20px;
+      color: white;
+      text-align: center;
+      background-color: black;
+      position: absolute;
+  }
+
+  .transformed {
+      background-color: tomato;
+      opacity: 0.8;
+  }
+
+  #transformed-1 {
+      transform: rotate(45deg);
+  }
+
+  #transformed-2 {
+      transform: rotate(1.2rad);
+  }
+
+  #transformed-3 {
+      transform: rotate(0.25turn);
+  }
+  #div-3 {
+      background-color: black;
+  }
+  #div-4 {
+      transform: translate(100px, 20px) scale(0.8) rotate(30deg);
+      background-color: tomato;
+      opacity: 0.8;
+  }*/
+  div {
+      line-height: 150px;
+
+  }
+  .group {
+      display: inline-block;
+      width: 200px;
+      height: 150px;
+  }
+  .original, .transformed {
+      width: 150px;
+      height: 150px;
+      border-radius: 20px;
+      color: white;
+      text-align: center;
+      position: absolute;
+  }
+  .original {
+      background-color: black;
+  }
+  .transformed {
+      background-color: tomato;
+      opacity: 0.8;
+  }
+  #container {
+      top: 25px;
+      left: 25px;
+      position: absolute;
+  }
+  #transformed-1 {
+      transform: perspective(500px) rotateY(40deg);
+  }
+  #transformed-2 {
+      transform: perspective(500px) rotateY(60deg);
+  }
+  #transformed-3 {
+      transform: perspective(500px) rotateY(80deg);
+  }
+  #container-1 {
+      top: 100px;
+      left: 125px;
+      margin-top: 300px;
+  }
+  #transformed-4 {
+      transform: rotate(45deg);
+      transform-origin: top left;
+  }
+  #transformed-5 {
+      transform: rotate(45deg);
+      transform-origin: bottom left;
+  }
+  .group-1 {
+      display: inline-block;
+      width: 200px;
+      height: 150px;
+  }
+
+  .original-1, .transformed-1 {
+      width: 150px;
+      height: 150px;
+      border-radius: 20px;
+      color: white;
+      text-align: center;
+      background-color: green;
+      position: absolute;
+  }
+  .original-1 {
+      background-color: black;
+  }
+  .transformed {
+      background-color: tomato;
+      opacity: 0.8;
+  }
+</style>
+<body>
+   <!-- <div id="div-1"> Original
+
+    </div>
+    <div id="div-2">transformirani</div>
+    <hr> 
+    
+    <div id="container">
+        <div class="group">
+            <div class="original"></div>
+            <div class="transformed" id="transformed-1">transformed-1</div>
+        </div>
+        <div class="group">
+            <div class="original"></div>
+            <div class="transformed" id="transformed-2">transformed-2</div>
+        </div>
+        <div class="group">
+            <div class="original"></div>
+            <div class="transformed" id="transformed-3">transformed-3</div>
+        </div>
+
+    </div>
+
+    <div id="div-3">original</div>
+    <div id="div-4">transformed</div>--> 
+
+    <div id="container">
+        <div class="group">
+            <div class="original">Original</div>
+            <div class="transformed" id="transformed-1">transformed</div>
+
+            
+        </div>
+        <div class="group">
+            <div class="original">Original</div>
+            <div class="transformed" id="transformed-2">transformed-2</div>
+
+            
+        </div>
+        <div class="group">
+            <div class="original">Original</div>
+            <div class="transformed" id="transformed-3">transformed-3</div>
+
+            
+        </div>
+    </div>
+    <div id="container-1">
+        <div class="group-1">
+            <div class="original-1">Original</div>
+            <div class="transformed-1" id="transformed-4">transformed</div>
+
+            
+        </div>
+        <div class="group-1">
+            <div class="original-1">Original</div>
+            <div class="transformed-1" id="transformed-5">transformed-2</div>
+
+            
+        </div>
+        <div class="group-1">
+            <div class="original-1">Original</div>
+            <div class="transformed-1" id="transformed-6">transformed-3</div>
+
+            
+        </div>
+    </div>
+</body>
+</html>

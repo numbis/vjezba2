@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja stranica</title>
+    <!-- Tabs CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/card-style.css">
+</head>
+
+<body>
+
+    <header class="Header">
+        <div class="header-line">
+            <h1 class="full-width-header">Moja stranica sa vertikalnim tabovima</h1>
+        </div>
+    </header>
+    <div class="menu-wrapper">
+        <input data-function="swipe" id="swipe"
+    <!-- Generalni div u kojem ćemo poslagati sve naše html elemente -->
+    <div class="sidebar">
+
+        <section class="tabs-container">
+            <label for="tab1"> Priroda </label>
+            <label for="tab2"> Cvijeće </label>
+            <label for="tab3"> Planine </label>
+            <label for="tab4"> Zgrade </label>
+            <label for="tab5"> Ceste </label>
+            <label for="tab6"> Šume </label>
+            <label for="tab7">Fancy</label>
+
+        </section>
+    </div>
+        <input name="tab" id="tab1" type="radio" checked />
+        <section class="tab-content">
+            <h2> Priroda </h2>
+            <p>Neki moj tekst koji je povezan sa prirodom</p>
+            <img src="img/sea.jpg" alt="More" />
+            <p> Opis koji će se odnositi na na prethodnu sliku prirode.</p>
+
+        </section>
+
+        <input name="tab" id="tab2" type="radio" />
+        <section class="tab-content">
+            <h2> Cvijeće</h2>
+            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum.</p>
+            <img src="img/flowers.jpg" alt="Cvijeće" />
+        </section>
+
+        <input name="tab" id="tab3" type="radio" />
+        <section class="tab-content">
+            <h2> Planine</h2>
+            <p> Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <img src="img/mountain.jpg" alt="Planine" />
+        </section>
+
+        <input name="tab" id="tab4" type="radio" />
+        <section class="tab-content">
+            <h2> Zgrade</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat.</p>
+            <img src="img/buildings.jpg" alt="Zgrade" />
+            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum.</p>
+        </section>
+
+        <input name="tab" id="tab5" type="radio" />
+        <section class="tab-content">
+            <h2> Ceste </h2>
+            <p> Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <img src="img/roads.jpg" alt="Ceste" />
+        </section>
+
+        <input name="tab" id="tab6" type="radio" />
+        <section class="tab-content">
+            <h2> Šume </h2>
+            <p>Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <img src="img/forest.jpg" alt="Šume" />
+            <p> In reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+        
+        <input name="tab" id="tab7" type="radio" />
+        <section class="tab-content">
+        <div class="container">
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="./img/code_128.png">
+                        <h3>Code</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam recusandae consectetur
+                            voluptas qui, facere esse voluptates, temporibus vel modi, eum quia l
+                            bero.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="./img/design_128.png">
+                        <h3>Design</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam recusandae consectetur
+                            voluptas qui, facere esse voluptates, temporibus vel modi, eum quia l
+                            bero.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <img src="./img/launch_128.png">
+                        <h3>Launch</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam recusandae consectetur
+                            voluptas qui, facere esse voluptates, temporibus vel modi, eum quia l
+                            bero.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <!-- <input name="tab" id="tab7" type="radio" />
+            <section class="tab-content">
+                <h2> Fancy cards </h2>
+                <div class="container">
+                    <div class="card">
+                        <div class="face face1">
+                        <div class="content">
+                            <img src="./img/design_128.png">
+                            <h3>Design</h3>
+                        </div>
+                        </div>
+                        <div class="face face2">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quascumque minus iste veritatis provident at.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="face face1">
+                        <div class="content">
+                            <img src="./img/code_128.png">
+                            <h3>Code</h3>
+                        </div>
+                        </div>
+                        <div class="face face2">
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cumque minus iste veritatis provident at.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="face face1">
+                           <div class="content">
+                              <img src="./img/launch_128.png">
+                              <h3>Launch</h3>
+                           </div>
+                        </div>
+                        <div class="face face2">
+                           <div class="content">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cumque minus iste veritatis provident at.</p>
+                              <a href="#">Read More</a>
+                           </div>
+                        </div>
+                     </div>
+                </div>
+            </section> -->
+
+        
+        </div>
+</body>
+
+</html>

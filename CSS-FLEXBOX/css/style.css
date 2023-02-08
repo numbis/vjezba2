@@ -1,0 +1,19 @@
+.flexbox {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    row-gap: 30px;
+}
+.box {
+    padding: 70px;
+    font-size: 3em;
+    background-color: red;
+    color: #fff;
+    width: 200px;
+    height: 150px;
+    line-height: 150px;
+    font-weight: bold;
+    text-align: center;
+    
+    
+}

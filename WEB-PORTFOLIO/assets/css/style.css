@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.user img{
+    width: 300px;
+    border-radius: 50%;
+    border:solid coral 8px
+
+}
+.user img:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+h3, p {
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+header {
+    width: 400px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:  wheat;
+    text-align: center;
+    
+}
+
+header a {
+    text-decoration: none;
+    margin: 5px auto;
+    display: block;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: coral;
+    padding: 12px;
+    width: 100px;
+    
+}
+header a:hover{
+    background-color: rgb(206, 113, 79);
+    border-radius: 20%;
+}
